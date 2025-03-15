@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="../img/logoKromatica.png"
+            alt="Kromatica Logo"
+            class="logo"
+          />
+          <!-- <span class="ms-2">Kromatica</span> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalogo.html">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="faq" class="container my-5">
+      <h2 class="text-center mb-5">Preguntas Frecuentes</h2>
+
+      <div class="row">
+        <!-- Imagen a la derecha en pantallas grandes, antes del contenido en móviles -->
+        <div
+          class="col-12 d-flex flex-column flex-md-row align-items-center mb-5"
+        >
+          <!-- Imagen -->
+          <div class="col-md-5 mb-3 mb-md-0">
+            <img
+              src="../img/catalog/gallery-item-2-1.jpeg"
+              class="img-fluid"
+              alt="Imagen FAQ"
+            />
+          </div>
+
+          <!-- Acordeón con las preguntas y respuestas -->
+          <div class="col-md-7">
+            <div class="accordion" id="faqAccordion">
+              <!-- Pregunta 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    ¿Cómo puedo realizar un pedido?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Para realizar un pedido, puedes navegar por nuestra tienda
+                    en línea y añadir los productos que desees a tu carrito.
+                    Luego, podrás proceder con el pago utilizando los métodos
+                    disponibles.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pregunta 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    ¿Ofrecen envíos a todo el país?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Sí, realizamos envíos a todas las regiones dentro del país.
+                    Los gastos de envío dependerán de la ubicación y el peso de
+                    los productos.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pregunta 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    ¿Cómo puedo contactar con el soporte?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Puedes contactar con nuestro equipo de soporte a través de
+                    nuestro correo electrónico o número de teléfono disponible
+                    en la sección de contacto de nuestra página web.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pregunta 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    ¿Qué métodos de pago aceptan?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Aceptamos pagos mediante tarjeta de crédito, PayPal,
+                    transferencia bancaria y efectivo en tiendas físicas.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Logo -->
+          <div class="col-md-4 text-center text-md-start">
+            <a
+              href="../index.html"
+              class="d-flex align-items-center justify-content-center justify-content-md-start"
+            >
+              <img
+                src="../img/logoKromatica.png"
+                alt="Kromatica Logo"
+                class="footer-logo"
+              />
+            </a>
+            <p class="mt-2">Diseñamos tu espacio, creamos tu estilo.</p>
+          </div>
+
+          <!-- Menú de navegación -->
+          <div class="col-md-4 text-center my-3 my-md-0">
+            <ul
+              class="list-unstyled d-flex flex-column flex-md-row justify-content-center"
+            >
+              <li class="mx-2">
+                <a href="../index.html" class="text-white">Inicio</a>
+              </li>
+              <li class="mx-2">
+                <a href="catalogo.html" class="text-white">Catálogo</a>
+              </li>
+              <li class="mx-2">
+                <a href="sobre-nosotros.html" class="text-white"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="mx-2">
+                <a href="galeria.html" class="text-white">Galería</a>
+              </li>
+              <li class="mx-2">
+                <a href="blog.html" class="text-white">Blog</a>
+              </li>
+              <li class="mx-2">
+                <a href="faq.html" class="text-white">FAQ</a>
+              </li>
+              <li class="mx-2">
+                <a href="contacto.html" class="text-white">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Redes sociales -->
+          <div class="col-md-4 text-center text-md-end">
+            <a href="#" class="text-white mx-2"
+              ><i class="fab fa-facebook fa-lg"></i
+            ></a>
+            <a href="#" class="text-white mx-2"
+              ><i class="fab fa-instagram fa-lg"></i
+            ></a>
+            <a href="#" class="text-white mx-2"
+              ><i class="fab fa-github fa-lg"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <p class="mb-0">
+          &copy; 2025 Kromatica. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>
